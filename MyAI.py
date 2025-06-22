@@ -152,7 +152,7 @@ class MyAI( AI ):
 								for i in range(self.__colD):
 									for j in range(self.__rowD):
 										if(self.__board[i][j] == -999):
-											self.__safeTile.add((j, j))
+											self.__safeTile.add((i, j))
 
 				#after marking all, if still have not uncovered tiles, add all to safetile set
 				#or have no clue with empty triggerTile
